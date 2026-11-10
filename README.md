@@ -37,7 +37,7 @@ El desarrollo del proyecto está basado en **Python 3.x** y utiliza principalmen
 
 - **Análisis y Manipulación de Datos:** `pandas`, `numpy`
 - **Visualización:** `matplotlib`, `seaborn`, `plotly`
-- **Machine Learning & Minería:** `scikit-learn`, `xgboost`, `lightgbm`
+- **Machine Learning & Minería:** `scikit-learn`
 - **Entorno de Trabajo:** `Jupyter Notebook` / `VS Code` / `Google Colab`
 
 ---
