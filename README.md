@@ -11,7 +11,6 @@ Este repositorio contiene el desarrollo del **Proyecto Final** para la asignatur
 ## 📋 Tabla de Contenidos
 
 - [Descripción General](#-descripción-general)
-- [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Tecnologías y Librerías](#-tecnologías-y-librerías)
 - [Requisitos Previos e Instalación](#-requisitos-previos-e-instalación)
 - [Metodología de Trabajo](#-metodología-de-trabajo)
@@ -25,31 +24,10 @@ Este repositorio contiene el desarrollo del **Proyecto Final** para la asignatur
 El objetivo de este proyecto es abordar un problema complejo mediante el uso de pipeline completo de minería de datos:
 1. **Entendimiento del Negocio/Problema:** Definición de objetivos y métricas clave de éxito.
 2. **Entendimiento y Exploración de Datos (EDA):** Análisis exploratorio para identificar patrones, distribuciones y anomalías.
-3. **Preprocesamiento:** Limpieza, imputación de valores faltantes, ingeniería de características (feature engineering) y normalización/escalado.
-4. **Modelado:** Entrenamientos de diversos algoritmos de Aprendizaje Automático (Supervisado / No Supervisado).
-5. **Evaluación:** Comparación del rendimiento de modelos con métricas pertinentes (Accuracy, Precision, Recall, F1-Score, ROC-AUC, RMSE, etc.).
+3. **Preprocesamiento:** Limpieza, imputación de valores faltantes, ingeniería de características y normalización/escalado.
+4. **Modelado:** Entrenamientos de diversos algoritmos de Aprendizaje Automático .
+5. **Evaluación:** Comparación del rendimiento de modelos con métricas pertinentes .
 
----
-
-## 📁 Estructura del Repositorio
-
-```text
-Proyecto-final-mineria2/
-├── data/
-│   ├── raw/              # Datos originales (sin procesar)
-│   └── processed/        # Datos limpios y listos para modelar
-├── notebooks/            # Notebooks de Jupyter / Google Colab
-│   ├── 01_eda.ipynb      # Análisis Exploratorio de Datos
-│   ├── 02_preprocessing.ipynb # Limpieza y Feature Engineering
-│   └── 03_modeling.ipynb # Entrenamiento y evaluación de modelos
-├── src/                  # Código fuente modularizado (.py)
-│   ├── utils.py          # Funciones auxiliares
-│   └── data_loader.py    # Carga y procesamiento
-├── models/               # Modelos entrenados exportados (.pkl, .joblib)
-├── reports/              # Gráficas, reportes y presentación final
-├── requirements.txt      # Dependencias del proyecto
-└── README.md             # Documentación principal
-```
 
 ---
 
@@ -87,17 +65,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 📈 Metodología de Trabajo
-
-1. **Análisis Exploratorio (EDA):** Detección de outliers, correlaciones entre variables y distribuciones principales.
-2. **Transformación:** Codificación de variables categóricas (One-Hot, Label Encoding) y estandarización.
-3. **Selección de Modelos:** Experimentación con modelos base (Baseline) y modelos avanzados.
-4. **Ajuste de Hiperparámetros:** Optimización mediante *GridSearchCV* / *RandomizedSearchCV*.
-
----
 
 ## 👥 Autores
 
